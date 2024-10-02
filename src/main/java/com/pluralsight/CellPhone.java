@@ -60,4 +60,10 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner;
     }
+
+    // Dial method to call another phone
+    public void dial(String phoneNumber){
+        System.out.printf("%s's phone is calling %s\n", this.owner, phoneNumber);
+    }
+
 }
